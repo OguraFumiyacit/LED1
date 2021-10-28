@@ -1,0 +1,1 @@
+cmd_/home/ubuntu/led/myled.ko := ld -r  -EL  -maarch64elf  --build-id  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds -o /home/ubuntu/led/myled.ko /home/ubuntu/led/myled.o /home/ubuntu/led/myled.mod.o;  true
